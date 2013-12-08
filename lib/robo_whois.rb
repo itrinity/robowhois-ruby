@@ -75,7 +75,7 @@ class RoboWhois
   end
 
   def whois_properties(query)
-    get("/whois/#{query}/properties")["response"]
+    get("/whois/#{query}/properties")
   end
 
   def whois_record(query)
